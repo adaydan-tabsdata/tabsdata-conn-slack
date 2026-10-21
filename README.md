@@ -232,6 +232,6 @@ Values longer than 40 characters are cut short.
 ## Running the tests
 
 ```bash
-pip install -e "slack[test]"
-pytest slack/tests
+pip install -e ".[test]"
+pytest tests
 ```
