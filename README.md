@@ -12,7 +12,7 @@ The connector package must be installed in two places:
 ### Step 1: Install the package where `tdk` runs
 
 ```bash
-pip install "tabsdata-conn-slack @ git+https://github.com/tabsdata/tabsdata-community-connectors.git#subdirectory=slack"
+pip install "tabsdata-conn-slack @ git+https://github.com/adaydan-tabsdata/tabsdata-conn-slack.git"
 ```
 
 ### Step 2: Add the package to the server's function environment
@@ -20,7 +20,7 @@ pip install "tabsdata-conn-slack @ git+https://github.com/tabsdata/tabsdata-comm
 Add the connector to a `requirements.txt` file:
 
 ```text
-tabsdata-conn-slack @ git+https://github.com/tabsdata/tabsdata-community-connectors.git#subdirectory=slack
+tabsdata-conn-slack @ git+https://github.com/adaydan-tabsdata/tabsdata-conn-slack.git
 ```
 
 Then update the function and agent environments and restart the server:
